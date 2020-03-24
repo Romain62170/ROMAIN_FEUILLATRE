@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/rssTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#6200EC"
+        android:text="TextView"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColor="#FFFFFF"
+        android:textColorHighlight="@color/colorPrimary"
+        android:textColorHint="@color/colorPrimary"
+        android:textColorLink="@color/colorPrimary" />
+
+    <TextView
+        android:id="@+id/rssDescription"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/rssTitle"
+        android:layout_marginTop="4dp"
+        android:background="#DCF10C"
+        android:backgroundTint="#DCF10C"
+        android:text="TextView"
+        android:textAppearance="@style/TextAppearance.AppCompat.Small"
+        android:textColor="?android:attr/colorEdgeEffect"
+        android:textColorHighlight="@android:color/tertiary_text_light" />
+</RelativeLayout>
